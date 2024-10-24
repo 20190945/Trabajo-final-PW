@@ -1,0 +1,34 @@
+/* Estilo global para añadir márgenes y hacer que todo esté más centrado */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Añadir margen general para que todo el contenido no esté pegado a los bordes */
+.container {
+  margin: 0 auto;
+  max-width: none; /* Puedes ajustar el ancho máximo según tus necesidades */
+  padding: 20px; /* Añade espacio interno */
+}
+
+/* Ajustes responsivos para pantallas más pequeñas */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 600px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 90%;
+    padding: 10px;
+  }
+}
