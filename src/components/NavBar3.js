@@ -51,7 +51,6 @@ const NavBar3 = () => {
             <a href="#tecnologia3">Tecnologia Item 3</a>
           </div>
         </div>
-        {/* Agrega más elementos de menú con submenús aquí */}
         
         <div className="navbar-item">
           <a href="#funko">FUNKO</a>
@@ -69,7 +68,6 @@ const NavBar3 = () => {
           </div>
         </div>
         
-        {/* Continua con el resto de los enlaces */}
       </div>
     </div>
   );
