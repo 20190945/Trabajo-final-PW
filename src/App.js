@@ -6,6 +6,8 @@ import NavBar2 from './components/NavBar2';
 import NavBar3 from './components/NavBar3';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import CategoriesSection from './components/CategoriesSection';
+import ImageSlider from './components/ImageSlider';
+
 
 const App = () => {
     return (
@@ -13,6 +15,7 @@ const App = () => {
             <NavBar2 />
             <NavBar />
             <NavBar3 />
+            <ImageSlider />
             <CategoriesSection />
             <Routes>
                 <Route path="/" element={<h1>¡Bienvenido a mi aplicación!</h1>} />               
