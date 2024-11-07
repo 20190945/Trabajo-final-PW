@@ -1,0 +1,37 @@
+/* Estilos para la barra de navegación */
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end; /* Alinea todo a la derecha */
+    align-items: center; /* Alinea verticalmente al centro */
+}
+
+.social-icons a {
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
