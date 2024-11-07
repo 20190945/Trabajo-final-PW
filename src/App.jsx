@@ -1,9 +1,9 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavBar from './components/NavBar';
-import NavBar2 from './components/NavBar2';
-import NavBar3 from './components/NavBar3';
+import MainNavBar from './components/MainNavBar';
+import SecondaryNavBar from './components/SecondaryNavBar';
+import ProductNavBar from './components/ProductNavBar';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import CategoriesSection from './components/CategoriesSection';
 import ImageSlider from './components/ImageSlider';
@@ -11,9 +11,9 @@ import ImageSlider from './components/ImageSlider';
 const App = () => {
     return (
         <Router>
-            <NavBar2/> 
-            <NavBar />
-            <NavBar3 />
+            <SecondaryNavBar/> 
+            <MainNavBar />
+            <ProductNavBar />
             <ImageSlider />
             <CategoriesSection />
             <Routes> 

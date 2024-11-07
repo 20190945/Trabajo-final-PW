@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/NavBar3.css';
+import '../styles/productNavBar.css';
 
-const NavBar3 = () => {
+const ProductNavBar = () => {
   return (
-    <div className="navbar3-container">
+    <div className="productnavbar-container">
       <div className="navbar-links">
         <div className="navbar-item">
           <a href="#cyber-phantom">CYBER PHANTOM</a>
@@ -71,4 +71,4 @@ const NavBar3 = () => {
   );
 };
 
-export default NavBar3;
+export default ProductNavBar;

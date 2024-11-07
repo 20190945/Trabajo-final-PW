@@ -5,13 +5,12 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import '../styles/ImageSlider.css';
+import slide1 from '../assets/slider/slide1.jpg';
+import slide2 from '../assets/slider/slide2.jpg';
+import slide3 from '../assets/slider/slide3.jpg';
+import slide4 from '../assets/slider/slide4.jpg';
 
-const images = [
-  'https://phantom.pe/media/wysiwyg/new_design/home/2022/banner-slider-super-mario-party-jamboree.jpg',
-  'https://phantom.pe/media/wysiwyg/new_design/home/2022/banner-slider-principal-G309-1220x-415px.jpg',
-  'https://phantom.pe/media/wysiwyg/new_design/home/2022/banner-slider-principal-power_1_.jpg',
-  'https://phantom.pe/media/wysiwyg/new_design/home/2022/banner-slider-recojo-en-tienda.jpg'
-];
+const images = [ slide1, slide2, slide3, slide4 ];
 
 const ImageSlider = () => {
   return (

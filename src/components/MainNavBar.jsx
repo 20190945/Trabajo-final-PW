@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/navBar.css';
+import '../styles/mainNavBar.css';
+import logo from '../assets/logo/phantom_white.svg';
 
-const NavBar = () => {
+const MainNavBar = () => {
     return (
         <nav>
-            <img className='navbar-logo' src='https://phantom.pe/media/wysiwyg/logo/phantom_white.svg'/>
+            <img className='navbar-logo' src={logo} alt="Phantom Logo"/>
             <ul className='opciones'>
                 <li><Link to="/">Inicio</Link></li>
                 <li><Link to="/about">Acerca de</Link></li>
@@ -15,4 +16,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export default MainNavBar;

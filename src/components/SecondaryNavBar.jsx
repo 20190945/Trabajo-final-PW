@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/navBar2.css';
+import '../styles/secondaryNavBar.css';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
-const NavBar2 = () => {
+const SecondaryNavBar = () => {
     return (
         <nav>
             <div className="nav-container">
@@ -23,4 +23,4 @@ const NavBar2 = () => {
     );
 };
 
-export default NavBar2;
+export default SecondaryNavBar;
