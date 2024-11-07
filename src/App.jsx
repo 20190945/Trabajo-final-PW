@@ -7,6 +7,7 @@ import ProductNavBar from './components/ProductNavBar';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import CategoriesSection from './components/CategoriesSection';
 import ImageSlider from './components/ImageSlider';
+import PromoBanner from './components/PromoBanner';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
                 <Route path="/login" element={<h1>Iniciar Sesión</h1>} />
                 <Route path="/signup" element={<h1>Crear Cuenta</h1>} />
             </Routes>
+            <PromoBanner />
             <Footer />
         </Router>
     );
