@@ -1,0 +1,23 @@
+.image-mosaic {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.image-item {
+    border-radius: 8px; 
+    overflow: hidden;
+    height: 300px; 
+}
+.wide-image-item {
+    height: 400px;
+}
+
+.image-item img, .wide-image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
