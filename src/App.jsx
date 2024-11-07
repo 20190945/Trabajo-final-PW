@@ -7,6 +7,7 @@ import ProductNavBar from './components/ProductNavBar';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import CategoriesSection from './components/CategoriesSection';
 import ImageSlider from './components/ImageSlider';
+import ImageMosaic from './components/ImageMosaic';
 import PromoBanner from './components/PromoBanner';
 import Footer from './components/Footer';
 
@@ -17,6 +18,7 @@ const App = () => {
             <MainNavBar />
             <ProductNavBar />
             <ImageSlider />
+            <ImageMosaic />
             <CategoriesSection />
             <Routes> 
                 <Route path="/" element={<h1>¡Bienvenido a mi aplicación!</h1>} />
