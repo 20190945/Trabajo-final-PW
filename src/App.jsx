@@ -5,9 +5,7 @@ import MainNavBar from './components/MainNavBar';
 import SecondaryNavBar from './components/SecondaryNavBar';
 import ProductNavBar from './components/ProductNavBar';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import CategoriesSection from './components/CategoriesSection';
-import ImageSlider from './components/ImageSlider';
-import ImageMosaic from './components/ImageMosaic';
+import HomePage from './pages/HomePage'
 import PromoBanner from './components/PromoBanner';
 import Footer from './components/Footer';
 import Reclamaciones from './components/footer/Reclamaciones';
