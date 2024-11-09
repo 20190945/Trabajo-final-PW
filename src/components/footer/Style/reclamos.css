@@ -1,0 +1,135 @@
+/* Estilos generales para las secciones del footer */
+.divReclamaciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Estilos para h1 */
+.divReclamaciones h1 {
+    color: red;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-image: radial-gradient(white 1px, transparent 1px);
+    background-size: 11px 9px;
+    width: 100%; /* Esto hace que ocupe todo el ancho disponible */
+    box-sizing: border-box; /* Asegura que el padding no sobresalga */
+}
+
+/* Estilos para h2 */
+.divReclamaciones h2 {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    box-sizing: border-box;
+}
+
+/* Botón de ocultar/mostrar */
+.toggle-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* Estilos para los párrafos */
+.divReclamaciones p {
+    color: darkgray;
+    margin: 10px 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Clase para ocultar los párrafos */
+.hidden {
+    display: none; /* Oculta el párrafo */
+}
+
+/* Estilos adicionales para la sección de sugerencias */
+.divSugerencias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  /* Asegura que todo el contenido esté centrado verticalmente */
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Alineación central para los textos dentro de div */
+}
+
+.divSugerencias h1 {
+    color: red;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-image: radial-gradient(white 1px, transparent 1px);
+    background-size: 11px 9px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilos para los párrafos en sugerencias */
+.divSugerencias p {
+    color: darkgray;
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* Estilos para el formulario */
+.divSugerencias form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos dentro del formulario */
+    width: 80%; /* Limita el ancho del formulario para que no ocupe todo el ancho de la pantalla */
+    max-width: 800px; /* Define un máximo de ancho para que no se vea demasiado extendido */
+    margin-top: 20px;
+}
+
+.divSugerencias label {
+    margin-bottom: 5px;
+    color: black;
+    text-align: left; /* Alinea las etiquetas a la izquierda */
+    width: 100%; /* Asegura que el label ocupe todo el ancho disponible */
+    box-sizing: border-box;
+}
+
+.divSugerencias input,
+.divSugerencias textarea {
+    background-color: antiquewhite;
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%; /* Asegura que los campos de entrada y textarea ocupen todo el ancho disponible */
+    max-width: 500px; /* Limita el ancho de los inputs y textarea para mantener una buena apariencia */
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: black;
+}
+
+.divSugerencias button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.divSugerencias button:hover {
+    background-color: darkred;
+}
+

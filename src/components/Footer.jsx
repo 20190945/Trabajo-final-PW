@@ -7,6 +7,7 @@ import dinersLogo from '../assets/payment/diners.webp';
 import safetypayLogo from '../assets/payment/safetypay.png';
 import pagoefectivoLogo from '../assets/payment/pagoefectivo.png';
 import cuotéaloLogo from '../assets/payment/cuotealo.svg';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -21,9 +22,9 @@ const Footer = () => {
         <div className="footer-section">
           <h3>ENLACES IMPORTANTES</h3>
           <ul>
-            <li><a href="#reclamaciones">Libro de reclamaciones</a></li>
-            <li><a href="#politicas">Políticas y condiciones de uso</a></li>
-            <li><a href="#sugerencias">Sugerencias</a></li>
+            <li><Link to="/reclamos">Libro de reclamaciones</Link></li>
+            <li><Link to="/politicas">Políticas y condiciones de uso</Link></li>
+            <li><Link to="/sugerencias">Sugerencias</Link></li>
             <li><a href="#guia-para-padres">Guía para padres</a></li>
             <li><a href="#trabaja">Trabaja con nosotros</a></li>
           </ul>
@@ -31,7 +32,7 @@ const Footer = () => {
         <div className="footer-section">
           <h3>INFORMACIÓN</h3>
           <ul>
-            <li><a href="#nosotros">Nosotros</a></li>
+            <li><Link to="/nosotros">Nosotros</Link></li>
             <li><a href="#tiendas">Nuestras tiendas</a></li>
             <li><a href="#como-comprar">¿Cómo comprar?</a></li>
             <li><a href="#faq">Preguntas Frecuentes</a></li>
