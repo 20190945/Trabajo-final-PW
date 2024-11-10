@@ -1,26 +1,35 @@
 import React from "react";
-import '../footer/Style/reclamos.css';
+import '../footer/Style/footerEstilos.css';
 
 const Sugerencias = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        // Aquí podrías manejar el envío del formulario
+        console.log("Formulario enviado");
+    };
+
     return (
-        <div className="divSugerencias">
-            <h1>¿Como podemos mejorar</h1>
+        <div className="footer-section2">
+            <h1>¿Cómo podemos mejorar?</h1>
             <p>Agradecemos puedan enviarnos sus sugerencias mediante el llenado del siguiente formulario.</p>
-            <form action="">
-                <label htmlFor="">Nombre y Apellidos</label>
-                    <input type="text" />
-                <label htmlFor="">Correo</label>
-                    <input type="email" />
-                <label htmlFor="">Teléfono o Celular</label>
-                    <input type="tel" />
-                <label htmlFor="">Presentacion</label>
-                    <textarea name="" id=""></textarea>
-                <button>REGRESAR</button>
-                <button>ENVIAR</button>
+            <form  className="footer-form" onSubmit={handleSubmit}>
+                <label htmlFor="name">Nombre y Apellidos</label>
+                <input type="text" id="name" name="name" required />
+                
+                <label htmlFor="email">Correo</label>
+                <input type="email" id="email" name="email" required />
+                
+                <label htmlFor="phone">Teléfono o Celular</label>
+                <input type="tel" id="phone" name="phone" />
+                
+                <label htmlFor="message">Presentación</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="button" onClick={() => console.log("Regresar")}>REGRESAR</button>
+                <button type="submit">ENVIAR</button>
             </form>
-        
         </div>
-    )
-}
+    );
+};
 
 export default Sugerencias;

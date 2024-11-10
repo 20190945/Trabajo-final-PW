@@ -1,0 +1,177 @@
+/* Estilos generales para todas las secciones del footer */
+.footer-section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+    width: 100%;
+}
+
+/* Estilos para los títulos h1 y h2 de las secciones */
+.footer-section2 h1{
+    font-size: 30px;
+    background-image: radial-gradient(white 1px, transparent 1px);
+    color: red;
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+    background-size: 11px 9px;
+    width: 100%;
+    box-sizing: border-box;
+    text-indent: 40px;
+}
+.footer-section2 h2 {
+    color: white;
+    background-color: black;
+    padding: 5px 0; /* Define el espacio vertical para hacer la barra delgada */
+    border-radius: 0px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem; /* Ajusta el tamaño de fuente para que encaje bien en la barra */
+    margin: 10px 0; /* Separación entre el h2 y otros elementos */
+    height: 40px; /* Controla la altura para que sea delgada */
+    line-height: 20px; /* Alinea el texto verticalmente dentro de la barra */
+    text-indent: 20px;
+}
+
+
+/* Estilo específico para h2 (separado de h1 si es necesario) */
+.footer-section2 h2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Botón de ocultar/mostrar */
+.toggle-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* Estilos para los párrafos en todas las secciones */
+.footer-section2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(109, 102, 102);
+    margin: 10px 0;
+    transition: opacity 0.3s ease;
+    text-align: left;
+}
+
+/* Clase para ocultar los párrafos */
+.hidden {
+    display: none;
+}
+
+/* Estilos para el formulario en las secciones que lo tengan */
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    margin-top: 20px;
+}
+
+.footer-form label {
+    margin-bottom: 5px;
+    color: black;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.footer-section2 h4 {
+    color: rgb(71, 68, 68);
+    font-size: 25px;
+    margin-bottom: 0px;
+    width: 100%;
+
+}
+
+.footer-form input, select, option{
+    background-color: antiquewhite;
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 900px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: rgb(54, 53, 53);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-form textarea {
+    background-color: antiquewhite;
+    max-width: 900px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilos para los botones dentro del formulario */
+.footer-form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-form button:hover {
+    background-color: darkred;
+}
+
+/* Estilos de tiendas */
+.sedes-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: black;
+}
+
+.sedes-list {
+    width: 40%;
+    max-height: 500px;
+    overflow-y: auto; /* Hacer que la lista sea desplazable */
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+
+.sedes-list ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.sedes-list li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: left;
+    color: red;
+}
+
+.sedes-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.sedes-map {
+    width: 55%;
+    height: 450px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}

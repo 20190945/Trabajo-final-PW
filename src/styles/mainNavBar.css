@@ -25,9 +25,10 @@ nav ul li a:hover {
 }
 
 .navbar-logo {
-  width: 300px; 
+  width: 400px; 
   height: 50px; 
   float: left;
+  margin-bottom: 20px;
 }
 
 .opciones{

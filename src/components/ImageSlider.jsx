@@ -9,8 +9,9 @@ import slide1 from '../assets/slider/slide1.jpg';
 import slide2 from '../assets/slider/slide2.jpg';
 import slide3 from '../assets/slider/slide3.jpg';
 import slide4 from '../assets/slider/slide4.jpg';
+import slide5 from '../assets/slider/slide5.jpg';
 
-const images = [ slide1, slide2, slide3, slide4 ];
+const images = [ slide1, slide2, slide3, slide4, slide5 ];
 
 const ImageSlider = () => {
   return (

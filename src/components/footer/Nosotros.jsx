@@ -1,9 +1,9 @@
 import React from "react";
-import '../footer/Style/reclamos.css';
+import '../footer/Style/footerEstilos.css';
 
 const Nosotros = () => {
     return (
-        <div className="divSugerencias">
+        <div className="footer-section2">
             <h1>¿Quienes somos?</h1>
             <p>
             Somos una empresa dedicada a la comercialización de productos de entretenimiento, de capital 100% peruano, con tiendas físicas en ocho de las principales ciudades del país y con cobertura a nivel nacional mediante nuestra página web.
