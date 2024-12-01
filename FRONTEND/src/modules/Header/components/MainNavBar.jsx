@@ -21,8 +21,8 @@ const MainNavBar = () => {
                     <label>Nuestras Tiendas</label>
                 </li>
                 <li>
-                    <Link to="/contact"><FaShoppingBag size={24} /> {/* Icono de bolsa */}</Link>
-                    <label>Mi Bolsa</label>
+                    <Link to="/carrito"><FaShoppingBag size={24} /> {/* Icono de bolsa */}</Link>
+                    <label>Mi Carrito</label>
                 </li>
             </ul>
         </nav>
