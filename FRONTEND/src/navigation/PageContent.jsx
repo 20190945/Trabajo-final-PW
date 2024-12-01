@@ -11,6 +11,7 @@ import Sedes from '../modules/footer/components/Sedes';
 import HomePage from './HomePage';
 import PromoBanner from '../modules/Product/banners/PromoBanner';
 import CreateAccount from '../modules/Login/CreateAccount';
+import Login from '../modules/Login/Login';
 
 const PageContent = () => {
     return (
@@ -29,6 +30,7 @@ const PageContent = () => {
             <Route path="/trabaja" element={<TrabajaConNos />} />
             <Route path="/tiendas" element={<Sedes />} />
             <Route path="/signup" element={<CreateAccount />} />
+            <Route path="/Login" element={<Login />} />
         </Routes>
     );
 };
