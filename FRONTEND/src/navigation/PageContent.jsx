@@ -12,6 +12,7 @@ import HomePage from './HomePage';
 import PromoBanner from '../modules/Product/banners/PromoBanner';
 import CreateAccount from '../modules/Login/CreateAccount';
 import Login from '../modules/Login/Login';
+import { CartProvider } from '../modules/Carrito/context/CartContext';
 
 const PageContent = () => {
     return (
@@ -31,6 +32,7 @@ const PageContent = () => {
             <Route path="/tiendas" element={<Sedes />} />
             <Route path="/signup" element={<CreateAccount />} />
             <Route path="/Login" element={<Login />} />
+            <Route path="/carrito" element={<CartProvider><Home /></CartProvider>} />
         </Routes>
     );
 };
