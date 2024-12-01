@@ -1,0 +1,98 @@
+/* Contenedor principal */
+.account-info-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  min-height: calc(100vh - 60px); /* Asegura que el contenedor ocupe la altura completa menos el footer */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Títulos */
+.header-section .main-title {
+  color: #007bff; /* Azul */
+  margin-bottom: 5px;
+  font-size: 24px;
+  background-color: white;
+}
+
+.header-section .subtitle {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Contenedor de las cajas */
+.boxes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Diseño adaptable */
+  gap: 20px;
+  color: #333;
+  flex-grow: 1; /* Permite que este contenedor crezca y ocupe el espacio disponible */
+  margin-bottom: 20px;
+}
+
+/* Estilo general para las cajas */
+.info-box {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado de las cajas */
+.box-header {
+  background-color: #f7f7f7;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  text-transform: uppercase;
+}
+
+/* Cuerpo de las cajas */
+.box-body {
+  padding: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Pie de las cajas */
+.box-footer {
+  padding: 10px 15px;
+  display: flex;
+  gap: 15px;
+  justify-content: flex-start;
+}
+
+/* Botones de texto */
+.text-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.text-button:hover {
+  text-decoration: underline;
+}
+
+/* Asegura que el subtítulo se muestre por debajo de las cajas */
+.subtitle {
+  grid-column: span 2; /* Asegura que el subtítulo ocupe toda la fila */
+  margin-top: 20px;
+  color: #333;
+  font-size: 18px;
+}
+
+/* Asegura que el footer esté al final */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

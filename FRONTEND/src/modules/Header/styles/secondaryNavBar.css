@@ -1,0 +1,39 @@
+nav{
+    background-color: black;
+    padding: 0px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 80%;
+}
+
+.social-icons a {
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    font-size: 11.5px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}

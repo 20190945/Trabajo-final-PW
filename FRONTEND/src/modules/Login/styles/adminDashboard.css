@@ -1,0 +1,44 @@
+.admin-dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 25%;
+    background-color: #ffffff; /* Fondo blanco fijo */
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .menu-item {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #555555; /* Color plomo oscuro para el texto */
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center; /* Alineación vertical del icono y texto */
+  }
+  
+  .menu-item::before {
+    content: "➤"; /* Flecha antes del texto */
+    margin-right: 10px; /* Espacio entre la flecha y el texto */
+    color: #555555; /* Misma tonalidad que el texto */
+  }
+  
+  .menu-item:hover {
+    color: #007bff; /* Color azul al pasar el mouse */
+  }
+  
+  .menu-item.active {
+    color: #007bff; /* Color azul para el ítem activo */
+    font-weight: bold;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  

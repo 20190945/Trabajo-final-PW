@@ -1,0 +1,100 @@
+/* Estilos generales para el componente */
+div {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del título */
+h1 {
+    color: #333;
+    background-color: #f1e0c6; /* Color piel */
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el contenedor de formularios */
+.form-container {
+    display: flex;/* Esto hará que las secciones estén una al lado de la otra */
+    justify-content: space-between; /* Distribuye el espacio entre las secciones */
+    gap: 20px; /* Espacio entre las secciones */
+    margin: 0 auto;
+    max-width: 900px; /* Asegura que el formulario no ocupe todo el ancho */
+    padding: 0 20px;
+    flex-wrap: wrap; /* En pantallas pequeñas las secciones se apilan */
+}
+
+/* Estilo para las secciones del formulario */
+.form-section {
+    width: 100%; /* Cada sección ocupará el 48% del contenedor */
+    padding: 20px;
+    background-color: #f9f7f0; /* Fondo claro para las secciones */
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* Estilo para las etiquetas de los campos */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"], input[type="tel"], input[type="date"], 
+input[type="number"], input[type="email"], input[type="password"], input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: white;
+}
+
+/* Estilo para el subtítulo de "Información Personal" */
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Estilo para el botón de envío */
+.submit-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo del botón */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 768px) {
+    .form-container {
+        flex-direction: column; /* En pantallas pequeñas, las secciones se apilan verticalmente */
+        align-items: center;
+    }
+
+    .form-section {
+        width: 90%; /* Hacer que cada sección ocupe más espacio en pantallas pequeñas */
+        margin-bottom: 20px;
+    }
+}

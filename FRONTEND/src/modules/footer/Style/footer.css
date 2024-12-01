@@ -1,0 +1,96 @@
+/* Footer */
+.footer {
+  background-color: #000 !important; /* Fondo negro asegurado */
+  color: #fff;
+  padding: 20px 40px;
+  width: 100%;
+  margin-top: auto;
+  box-sizing: border-box; /* Asegura que el padding esté dentro del ancho total */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333;
+  gap: 20px; /* Agrega espacio entre las secciones */
+}
+
+.footer-section {
+  width: 20%;
+  padding: 0 15px; /* Espaciado dentro de cada sección para evitar que el texto toque los bordes */
+}
+
+/* Títulos en blanco y alineados a la izquierda */
+.footer-section h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff; /* Títulos en blanco */
+  text-align: left; /* Los títulos estarán alineados a la izquierda */
+}
+
+/* Alineación a la izquierda de los textos, color plomo claro */
+.footer-section p,
+.footer-section a,
+.footer-section li {
+  color: #b0b0b0; /* Color plomo claro */
+  font-size: 14px;
+  text-decoration: none;
+  margin: 5px 0;
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Eliminar los puntos de la lista */
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+/* Estilo de suscripción */
+.subscribe-form {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-form input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 14px;
+  width: 80%;
+  margin-right: -1px;
+}
+
+.subscribe-form button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #0073e6;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Footer inferior */
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.payment-logos img {
+  width: 50px; /* Asegura que todos los logos tengan el mismo tamaño */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin: 0 5px;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #aaa;
+}

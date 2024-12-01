@@ -1,0 +1,50 @@
+nav{
+    background-color: black;
+    padding: 20px ; /* 8Agrega un padding horizontal (40px a la izquierda y derecha) y vertical (20px arriba y abajo) */
+    display: flex; /* Usamos flexbox para organizar el logo y los enlaces */
+    justify-content: space-around; /* Espacio entre el logo y los enlaces */
+    align-items: center; /* Alinea los elementos verticalmente */
+}
+
+.navbar-logo {
+    width: 260px; /* Ajusta el tamaño del logo según lo necesites */
+    height: auto; /* Mantiene la proporción del logo */
+    margin-bottom: 0; /* Elimina el margen inferior para que el logo esté alineado con la barra de navegación */
+}
+
+.opciones {
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+    align-items: center; /* Alinea los iconos verticalmente al centro */
+    gap: 30px; /* Espacio entre los iconos */
+}
+
+.opciones li {
+    display: flex; /* Usamos flexbox para que el icono y el texto estén en una columna */
+    flex-direction: column; /* Los coloca en una columna */
+    align-items: center; /* Centra tanto el icono como el texto */
+}
+
+.opciones a {
+    color: white;
+    text-decoration: none;
+    display: flex; /* Asegura que el texto y el icono estén alineados */
+    align-items: center; /* Alinea el icono con el texto */
+    font-size: 16px; /* Tamaño de fuente para el texto */
+    justify-content: center; /* Centra el texto */
+}
+
+.opciones li label {
+    color: white; /* Cambié el color de las palabras */
+    font-size: 12px; /* Tamaño de la fuente del texto */
+    margin-top: 5px; /* Da un pequeño espacio entre el icono y el texto */
+}
+
+.opciones a:hover {
+    text-decoration: underline;
+    color: #007BFF; /* Color de hover */
+}
+
+.opciones a svg {
+    font-size: 24px; /* Ajusté el tamaño de los iconos */
+}
